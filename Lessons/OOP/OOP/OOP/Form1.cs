@@ -27,10 +27,16 @@ namespace OOP
 
         private void calBtn_Click(object sender, EventArgs e)
         {
-
-            int qty = Convert.ToInt32(qtyTxt.Text);
-            float price = Convert.ToSingle(uPriceTxt.Text);
-            totalTxt.Text = (Cal(qty, price).ToString());
+            if (qtyTxt.Text == "" || uPriceTxt.Text == "")
+            {
+                MessageBox.Show("Please fill in the Quantity and Unit Price!");
+            }
+            else
+            {
+                int qty = Convert.ToInt32(qtyTxt.Text);
+                float price = Convert.ToSingle(uPriceTxt.Text);
+                totalTxt.Text = (Cal(qty, price).ToString());
+            }
 
         }
     }
