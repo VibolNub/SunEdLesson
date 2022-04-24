@@ -1,0 +1,17 @@
+D:\SunEd Lessons\SunEdLesson\Lessons\OOP\Class Inheritance\ClassInheritance\ClassInheritance\bin\Debug\net6.0-windows\ClassInheritance.exe
+D:\SunEd Lessons\SunEdLesson\Lessons\OOP\Class Inheritance\ClassInheritance\ClassInheritance\bin\Debug\net6.0-windows\ClassInheritance.deps.json
+D:\SunEd Lessons\SunEdLesson\Lessons\OOP\Class Inheritance\ClassInheritance\ClassInheritance\bin\Debug\net6.0-windows\ClassInheritance.runtimeconfig.json
+D:\SunEd Lessons\SunEdLesson\Lessons\OOP\Class Inheritance\ClassInheritance\ClassInheritance\bin\Debug\net6.0-windows\ClassInheritance.dll
+D:\SunEd Lessons\SunEdLesson\Lessons\OOP\Class Inheritance\ClassInheritance\ClassInheritance\bin\Debug\net6.0-windows\ClassInheritance.pdb
+D:\SunEd Lessons\SunEdLesson\Lessons\OOP\Class Inheritance\ClassInheritance\ClassInheritance\obj\Debug\net6.0-windows\ClassInheritance.csproj.AssemblyReference.cache
+D:\SunEd Lessons\SunEdLesson\Lessons\OOP\Class Inheritance\ClassInheritance\ClassInheritance\obj\Debug\net6.0-windows\ClassInheritance.Form1.resources
+D:\SunEd Lessons\SunEdLesson\Lessons\OOP\Class Inheritance\ClassInheritance\ClassInheritance\obj\Debug\net6.0-windows\ClassInheritance.csproj.GenerateResource.cache
+D:\SunEd Lessons\SunEdLesson\Lessons\OOP\Class Inheritance\ClassInheritance\ClassInheritance\obj\Debug\net6.0-windows\ClassInheritance.GeneratedMSBuildEditorConfig.editorconfig
+D:\SunEd Lessons\SunEdLesson\Lessons\OOP\Class Inheritance\ClassInheritance\ClassInheritance\obj\Debug\net6.0-windows\ClassInheritance.AssemblyInfoInputs.cache
+D:\SunEd Lessons\SunEdLesson\Lessons\OOP\Class Inheritance\ClassInheritance\ClassInheritance\obj\Debug\net6.0-windows\ClassInheritance.AssemblyInfo.cs
+D:\SunEd Lessons\SunEdLesson\Lessons\OOP\Class Inheritance\ClassInheritance\ClassInheritance\obj\Debug\net6.0-windows\ClassInheritance.csproj.CoreCompileInputs.cache
+D:\SunEd Lessons\SunEdLesson\Lessons\OOP\Class Inheritance\ClassInheritance\ClassInheritance\obj\Debug\net6.0-windows\ClassInheritance.dll
+D:\SunEd Lessons\SunEdLesson\Lessons\OOP\Class Inheritance\ClassInheritance\ClassInheritance\obj\Debug\net6.0-windows\refint\ClassInheritance.dll
+D:\SunEd Lessons\SunEdLesson\Lessons\OOP\Class Inheritance\ClassInheritance\ClassInheritance\obj\Debug\net6.0-windows\ClassInheritance.pdb
+D:\SunEd Lessons\SunEdLesson\Lessons\OOP\Class Inheritance\ClassInheritance\ClassInheritance\obj\Debug\net6.0-windows\ClassInheritance.genruntimeconfig.cache
+D:\SunEd Lessons\SunEdLesson\Lessons\OOP\Class Inheritance\ClassInheritance\ClassInheritance\obj\Debug\net6.0-windows\ref\ClassInheritance.dll
