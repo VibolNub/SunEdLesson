@@ -47,11 +47,22 @@ namespace ClassInheritance
                     ((TextBox)c).Text = String.Empty;
                 }
             }
-
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            DialogResult sms = MessageBox.Show("Do you want to update this information?", "Question",MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if(sms == DialogResult.Yes)
+            {
+                if (dgvStu.Rows.Count >= 0)
+                {
+                    dgvStu.Rows[dgvStu.CurrentRow.Index].Cells["colName"].Value = txtStuName.Text;
+                    dgvStu.Rows[dgvStu.CurrentRow.Index].Cells["colGender"].Value = txtGender.Text;
+                    dgvStu.Rows[dgvStu.CurrentRow.Index].Cells["colDoB"].Value = txtDoB.Text;
+                    dgvStu.Rows[dgvStu.CurrentRow.Index].Cells["colAddress"].Value = txtAddr.Text;
+                    dgvStu.Rows[dgvStu.CurrentRow.Index].Cells["colScore"].Value = txtScore.Text;
+                }
+            }
             
         }
 

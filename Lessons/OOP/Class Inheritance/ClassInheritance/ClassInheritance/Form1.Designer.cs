@@ -39,7 +39,7 @@
             this.txtAddr = new System.Windows.Forms.TextBox();
             this.txtScore = new System.Windows.Forms.TextBox();
             this.btnAdd = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDel = new System.Windows.Forms.Button();
             this.dgvStu = new System.Windows.Forms.DataGridView();
             this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -140,15 +140,15 @@
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click_1);
             // 
-            // button2
+            // btnUpdate
             // 
-            this.button2.Location = new System.Drawing.Point(537, 157);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(94, 29);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "Clear";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnUpdate.Location = new System.Drawing.Point(537, 157);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(94, 29);
+            this.btnUpdate.TabIndex = 11;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.button2_Click);
             // 
             // btnDel
             // 
@@ -163,6 +163,8 @@
             // 
             // dgvStu
             // 
+            this.dgvStu.AllowUserToAddRows = false;
+            this.dgvStu.AllowUserToDeleteRows = false;
             this.dgvStu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvStu.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colName,
@@ -172,6 +174,7 @@
             this.colScore});
             this.dgvStu.Location = new System.Drawing.Point(1, 212);
             this.dgvStu.Name = "dgvStu";
+            this.dgvStu.ReadOnly = true;
             this.dgvStu.RowHeadersVisible = false;
             this.dgvStu.RowHeadersWidth = 51;
             this.dgvStu.RowTemplate.Height = 29;
@@ -186,12 +189,14 @@
             this.colName.HeaderText = "Student Name";
             this.colName.MinimumWidth = 6;
             this.colName.Name = "colName";
+            this.colName.ReadOnly = true;
             // 
             // colGender
             // 
             this.colGender.HeaderText = "Gender";
             this.colGender.MinimumWidth = 6;
             this.colGender.Name = "colGender";
+            this.colGender.ReadOnly = true;
             this.colGender.Width = 125;
             // 
             // colDoB
@@ -199,6 +204,7 @@
             this.colDoB.HeaderText = "Date Of Birth";
             this.colDoB.MinimumWidth = 6;
             this.colDoB.Name = "colDoB";
+            this.colDoB.ReadOnly = true;
             this.colDoB.Width = 125;
             // 
             // colAddress
@@ -206,6 +212,7 @@
             this.colAddress.HeaderText = "Address";
             this.colAddress.MinimumWidth = 6;
             this.colAddress.Name = "colAddress";
+            this.colAddress.ReadOnly = true;
             this.colAddress.Width = 125;
             // 
             // colScore
@@ -213,6 +220,7 @@
             this.colScore.HeaderText = "Score";
             this.colScore.MinimumWidth = 6;
             this.colScore.Name = "colScore";
+            this.colScore.ReadOnly = true;
             this.colScore.Width = 125;
             // 
             // Form1
@@ -222,7 +230,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.dgvStu);
             this.Controls.Add(this.btnDel);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.txtScore);
             this.Controls.Add(this.txtAddr);
@@ -256,7 +264,7 @@
         private TextBox txtAddr;
         private TextBox txtScore;
         private Button btnAdd;
-        private Button button2;
+        private Button btnUpdate;
         private Button btnDel;
         private DataGridView dgvStu;
         private DataGridViewTextBoxColumn colName;
